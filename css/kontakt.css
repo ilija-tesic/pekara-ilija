@@ -1,0 +1,54 @@
+body {
+    background: wheat;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  hr{
+    margin: 0;
+    border: 2px solid black;
+  }
+
+  .info{
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+  }
+
+  .input{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+
+  .form{
+    margin-top: 100px;
+  }
+
+  textarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+  }
+
+  .vreme{
+    margin-bottom: 30px;
+  }
+
+  .header{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    color: #333;
+  }
+
+  
+
+  footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }

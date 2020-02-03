@@ -1,0 +1,111 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .cenovnik{
+    background-color: wheat;
+  }
+
+
+  .cenovnik h1{
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 30px;
+      font-family: 'Pacifico', cursive;
+      font-weight: normal;
+  }
+
+  .tg  {
+      margin: 0 auto;
+      width: 50%;
+      border-collapse:collapse;
+      border-spacing:0;
+      border-color:#aaa;
+    }
+
+    .tg a{
+        text-decoration: none;
+        color: darkgreen;
+    }
+
+    .tg a:hover{
+        color: wheat;
+    }
+
+   .tg td{
+       font-family:Arial, sans-serif;
+       font-size:14px;
+       padding:10px 10px;
+       border-style:solid;
+       border-width:0px;
+       overflow:hidden;
+       word-break:normal;
+       border-top-width:1px;
+       border-bottom-width:1px;
+       border-color:#aaa;
+       color:#333;
+       background-color:#fff;
+    }
+    
+    .tg th{
+        font-family:Arial, sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        padding:10px 10px;
+        border-style:solid;
+        border-width:0px;
+        overflow:hidden;
+        word-break:normal;
+        border-top-width:1px;
+        border-bottom-width:1px;
+        border-color:#aaa;
+        color:#fff;
+        background-color:#f38630;
+    }
+
+    .tg .tg-cly1{
+        text-align:right;
+        vertical-align:middle;
+    }
+    
+    .tg .tg-9wq8{
+        border-color:inherit;
+        text-align:left;
+        vertical-align:middle;
+    }
+    
+    .tg .tg-9inx{
+        background-color:#FCFBE3;
+        border-color:inherit;
+        text-align:left;
+        vertical-align:middle;
+    }
+    
+    .tg .tg-hb2y{
+        background-color:#FCFBE3;
+        text-align:right;
+        vertical-align:middle;
+    }
+
+    #head{
+        text-align: center;
+    }
+
+    footer {
+        background: black;
+        color: gray;
+        font-size: 12px;
+        padding: 20px 20px;
+        text-align: center;
+      }
+
+      hr{
+          margin: 0;
+          border: 2px solid black;
+      }

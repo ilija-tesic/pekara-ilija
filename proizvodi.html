@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/proizvodi.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/shop.js"></script>
+    <title>Proizvodi</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="meni.html">Cenovnik</a></li>
+            <li class="mobile"><a href="proizvodi.html">Proizvodi</a></li>
+            <li class="mobile"><a href="kontakt.html">Kontakt</a></li>
+            <li class="naslov"><a href="index.html">Pekara Ilija</a></li>
+            <li class="desktop"><a href="proizvodi.html">Proizvodi</a></li>
+            <li class="desktop"><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <hr>
+
+      <section class="container content-section">
+        <h2 class="section-header">Koktel - slani</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Koktel virsla</span>
+                <img class="shop-item-image" src="img/koktel-virsla.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">500 din/kg</span>
+                    <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Koktel sir</span>
+                <img class="shop-item-image" src="img/koktel-sir.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">500 din/kg</span>
+                    <button class="btn btn-primary shop-item-button"type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Koktel spanac</span>
+                <img class="shop-item-image" src="img/koktel-spanac.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">550 din/kg</span>
+                    <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Koktel pica</span>
+                <img class="shop-item-image" src="img/koktel-pica.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">600 din/kg</span>
+                    <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">Pite - slatke</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Cheesecake pita sa jagodom</span>
+                <img class="shop-item-image" src="img/pita-jagoda.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">650 din/kg</span>
+                    <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pita sa jabukom</span>
+                <img class="shop-item-image" src="img/pita-jabuka.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">550 din/kg</span>
+                    <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                </div>
+            </div>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Pita sa visnjom</span>
+                    <img class="shop-item-image" src="img/pita-sa-visnjama.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">600 din/kg</span>
+                        <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                    </div>
+                </div>
+            </div>    
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Pita sa makom</span>
+                        <img class="shop-item-image" src="img/pita-mak.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">550 din/kg</span>
+                            <button class="btn btn-primary shop-item-button" type="button">DODAJ U KORPU</button>
+                        </div>
+                    </div>
+                </div>    
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">KORPA</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">PROIZVOD</span>
+            <span class="cart-price cart-header cart-column">CENA</span>
+            <span class="cart-quantity cart-header cart-column">KOLICINA</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Ukupno:</strong>
+            <span class="cart-total-price">0 din</span>
+        </div>
+        <form>
+        <input class="purchase-form" id="adress" type="text" placeholder="Vasa adresa" required>
+        <input class="purchase-form" type="number" placeholder="Vas broj telefona" required>
+        <span  class="purchase-form" id="date-text">Datum dostave:</span><input class="purchase-form" type="date" required>
+        <input type="submit" value="Naruci" class="btn btn-primary btn-purchase" type="button">
+        </form>
+    </section>
+</body>
+</html>
